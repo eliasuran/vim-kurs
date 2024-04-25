@@ -26,6 +26,8 @@
 	console.log('alt er server side jeg lover ikke prøv engang :=');
 </script>
 
-<div class="absolute inset-0 min-h-screen overflow-y-hidden px-96 py-20 bg-bg text-text">
+<div
+	class="absolute inset-0 min-h-screen overflow-x-hidden px-96 py-20 bg-bg text-text selection:bg-[red]"
+>
 	<slot />
 </div>
