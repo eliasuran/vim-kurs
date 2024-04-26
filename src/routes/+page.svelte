@@ -7,22 +7,24 @@
 	<h2 class="text-3xl font-semibold">Oppgave</h2>
 	<p>Lag en ny javascript fil og kall den script.js</p>
 	<Code
-		label="Kopier denne koden inn i filen"
-		code={`// LOG "hello world" uten å lage nye variabler
+		label="Kopier og lim denne koden inn i filen"
+		code={`// LOG hello world uten å lage nye variabler
+// eller endre på console.log() funksjonen
+// 
 //
-let hello = ""
+// SETT hello til 'hello'
+let hello = ''
 // 
 // 
 // 
 // 
-// SETT HELLO TIL "hello"
-//
+// 
 //
 //
 //
 //
 /* .                                                */ let world; 
-/* SETT WORLD TIL "world"                                        */ world = ""
+/* SETT WORLD TIL 'world'                                        */ world = ''
 //
 //
 //
@@ -32,5 +34,9 @@ let hello = ""
 //
 console.log(hello, world)`}
 	/>
-	<Code label="Kjør programmet" language="shell" code={`node script.js`} />
+	<form method="POST" class="flex flex-col gap-2 items-start">
+		<p>Paste den redigerte koden inn her</p>
+		<input type="text" name="code" class="text-bg" />
+		<button type="submit">Submit</button>
+	</form>
 </div>

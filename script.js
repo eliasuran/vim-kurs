@@ -1,18 +1,20 @@
-// LOG "hello world" uten å lage nye variabler
+// LOG hello world uten å lage nye variabler
+// eller endre på console.log() funksjonen
+// 
 //
-let hello = ""
+// SETT hello til 'hello'
+let hello = 'hello'
 // 
 // 
 // 
 // 
-// SETT HELLO TIL "hello"
-//
+// 
 //
 //
 //
 //
 /* .                                                */ let world; 
-/* SETT WORLD TIL "world"                                        */ world = ""
+/* SETT WORLD TIL 'world'                                        */ world = 'world'
 //
 //
 //
