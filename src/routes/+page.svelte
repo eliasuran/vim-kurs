@@ -10,7 +10,7 @@
 	<p>Nå skal vi klone en basic neovim config</p>
 	<Code
 		label="Bruk git clone for å laste ned configen"
-		code={`git clone https://github.com/eliasuran/kurs.nvim.git "\${{XDG_CONFIG_HOME:-$HOME/.config}}/nvim"`}
+		code={'git clone https://github.com/eliasuran/kurs.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim'}
 	/>
 	<Code label="Nå kan du åpne neovim ved å kjøre nvim" code={'nvim'} />
 	<p>Dette vil åpne neovim i mappen du er i</p>
