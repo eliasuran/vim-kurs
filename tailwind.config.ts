@@ -13,10 +13,12 @@ const config = {
 		join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}')
 	],
 	theme: {
-		colors: {
-			bg: '#1A1A1A',
-			primary: '#232323',
-			text: '#FFFF'
+		extend: {
+			colors: {
+				bg: '#1A1A1A',
+				primary: '#232323',
+				text: '#FFFF'
+			}
 		}
 	},
 	plugins: [

@@ -1,6 +1,5 @@
 <script lang="ts">
 	import '../app.css';
-
 	import hljs from 'highlight.js/lib/core';
 
 	import xml from 'highlight.js/lib/languages/xml';
