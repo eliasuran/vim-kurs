@@ -16,7 +16,7 @@
 :q! // lukk fil og discard endringer`}
 		/>
 		<Code
-			label="Du kan åpne en ny fil med vim ved å kjøre nvim + navnet på filen"
+			label="Du kan åpne en ny fil med vim ved å kjøre nvim + navnet på filen (om filen ikke eksisterer vil den lage en ny med det navnet)"
 			code="nvim script.js"
 		/>
 		<Code
