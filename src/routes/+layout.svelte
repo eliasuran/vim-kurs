@@ -24,7 +24,7 @@
 </script>
 
 <div
-	class="absolute inset-0 min-h-screen overflow-x-hidden px-96 py-20 bg-bg text-text selection:bg-[red]"
+	class="absolute inset-0 min-h-screen overflow-x-hidden py-20 bg-bg text-text selection:bg-[red] flex justify-center"
 >
 	<slot />
 </div>
