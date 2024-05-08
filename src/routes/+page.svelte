@@ -17,6 +17,7 @@
 		</div>
 		<p>Neovim er basically bare vim, men skrevet i <span class="text-blue-700">Lua</span></p>
 		<p>Nå skal vi klone en basic neovim config</p>
+		<Code label="Last ned git med brew om du ikke har det" code="brew install git" />
 		<Code
 			label="Bruk git clone for å laste ned configen"
 			code={'git clone https://github.com/eliasuran/kurs.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim'}
