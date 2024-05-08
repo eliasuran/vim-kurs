@@ -20,7 +20,7 @@
 			code="nvim script.js"
 		/>
 		<Code
-			label="Lim denne koden inn i filen med Cmd+v"
+			label="Lim denne koden inn i filen med Cmd+v, og gjør det kommentarene sier"
 			code={`// LOG hello world uten å lage nye variabler
 // eller endre på console.log() funksjonen
 //
